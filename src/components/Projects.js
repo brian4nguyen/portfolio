@@ -18,6 +18,10 @@ const Projects = () => {
     <section id="projects">
       <h2>Projects</h2>
       <p>Check out some of the things I’ve built!</p>
+      {for (let project of projects) {
+        return (<h1>hi</h1>)
+      }
+      }
     </section>
   );
 };
